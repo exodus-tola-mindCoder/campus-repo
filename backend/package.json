@@ -1,0 +1,41 @@
+{
+  "name": "campus-repo-backend",
+  "version": "1.0.0",
+  "description": "Backend API for Campus Repo - Academic Resource Sharing Platform",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/exodus-tola-mindCoder/campus-repo.git"
+  },
+  "keywords": [
+    "\"mern\""
+  ],
+  "author": "\"node\",",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/exodus-tola-mindCoder/campus-repo/issues"
+  },
+  "homepage": "https://github.com/exodus-tola-mindCoder/campus-repo#readme",
+  "dependencies": {
+    "bcryptjs": "^3.0.2",
+    "cloudinary": "^2.6.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "express-rate-limit": "^7.5.0",
+    "express-validator": "^7.2.1",
+    "helmet": "^8.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.13.2",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.5-lts.2",
+    "sanitize-html": "^2.16.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
