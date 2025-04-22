@@ -19,7 +19,7 @@
   "bugs": {
     "url": "https://github.com/exodus-tola-mindCoder/campus-repo/issues"
   },
-  "homepage": "https://github.com/exodus-tola-mindCoder/campus-repo#readme",
+  "homepage": "https://github.com/exodus-tola-mindCoder/campus-repo.git",
   "dependencies": {
     "bcryptjs": "^3.0.2",
     "cloudinary": "^2.6.0",
