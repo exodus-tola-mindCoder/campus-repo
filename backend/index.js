@@ -17,7 +17,8 @@ const app = express();
 app.use(express.json());
 
 // Mount Routes
-app.use('/api/auth', authRoutes)
+app.use('/api/auth', authRoutes);
+app.use('/api/users', userRoutes);
 
 const PORT = process.env.PORT || 5000;
 
